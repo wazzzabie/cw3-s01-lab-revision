@@ -1,0 +1,240 @@
+/* --------------- SETTINGS ---------------- */
+
+/* font-family: 'Expletus Sans', cursive; */
+/* font-family: 'Rubik', sans-serif; */
+
+
+
+/* -------------- GENERIC ------------------ */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/*  Liste à puce sur tous les LI  */
+li {
+    list-style: none;
+}
+
+/* Enlever la marge sur les H1 et H2 */
+h1, h2 {
+    margin: 0;
+}
+
+
+
+/* -------------- ELEMENTS ------------------ */
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin:0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Expletus Sans', cursive;
+    font-weight: 600;
+    font-size: 96px;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Expletus Sans', cursive;
+    font-weight: 600;
+    font-size: 64px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------- COMPONENTS ------------------ */
+
+.conteneur {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+
+/* HEADER */
+
+
+.header-principal {
+    background: #FF9800;
+}
+
+.nav-principale {
+    display: flex;
+    justify-content: flex-end;
+;
+}
+.nav-principale ul {
+    display: flex;
+}
+
+.nav-principale li {
+    margin: 0 10px;
+}
+
+
+/* HERO */
+.hero {
+    align-items: center;
+    background: #FFC107;
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.hero h1 {
+    padding: 88px 0;
+}
+
+/* INFORMATION */
+.information {
+    padding: 30px 0;
+}
+.information .conteneur {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carte {
+    background: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+}
+.carte header {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.carte:nth-child(1) header {
+    background: #E34E26;
+}
+
+.carte:nth-child(2) header {
+    background: #0270BB;
+}
+
+.carte:nth-child(3) header {
+    background: #F8DC3D;
+}
+
+.conteneur .content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.carte-footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bouton {
+    background: #FFC107;
+    border: 1px solid #E64A19;
+    border-radius: 5px;
+    padding: 10px;
+}
+.bouton:hover {
+    background: #E64A19;
+    border: 1px solid #E64A19;
+    color: #fff;
+    text-decoration: none;
+}
+
+span {
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #E64A19;
+}
+
+
+.footer-principal {
+    background: #E64A19;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------- UTILITIES ------------------ */
+
+
+
+
