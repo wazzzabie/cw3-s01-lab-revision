@@ -1,0 +1,196 @@
+
+/*----------------------------------------------------------------------------
+    Settings
+----------------------------------------------------------------------------*/
+
+/*font-family: 'Expletus Sans', cursive;
+font-family: 'Rubik', sans-serif;*/
+
+/*------------------------------------------------------------------------------
+   Generic
+------------------------------------------------------------------------------*/
+
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+/* Liste à puces sur tous les LI */
+li{
+    list-style:none;
+}
+
+/* Enlever la marge sur les H1 et H2*/
+h1,h2{
+    margin: 0;
+}
+
+/*------------------------------------------------------------------------------
+   Elements
+------------------------------------------------------------------------------*/
+
+body{
+
+    font-family: 'Rubik', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin:0;
+}
+
+h1{
+    font-family: 'Expletus Sans', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 125px;
+}
+
+h2{
+    font-family: 'Expletus Sans', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 83px;
+    color: #FFFFFF;
+}
+
+a{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2D2D2D;
+    text-decoration: none;
+}
+
+a:hover{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #FFFCFC;
+}
+
+/*------------------------------------------------------------------------------
+   Components
+------------------------------------------------------------------------------*/
+
+.conteneur{
+    margin: 0 auto;
+    max-width: 1148px;
+}
+
+.header-principal .conteneur{
+    display: flex;
+    justify-content: flex-end;
+}
+header ul{
+    display: flex;
+}
+header li {
+    margin: 0 10px;
+}
+
+.header-principal{
+    background: #FF9800;
+    padding: 15px;
+}
+
+.hero{
+   background:#FFC107;
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.hero h1{
+    padding: 88px 0;
+}
+
+
+
+/*info*/
+
+.information{
+    padding: 30px 0;
+}
+
+.information .conteneur{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carte{
+    background:#F0F0F0;
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+}
+
+.carte header{
+    padding: 60px 0;
+    text-align: center;
+}
+
+/*selectionner un enfant précis*/
+.carte:nth-child(1) header{
+    background: #E34E26;
+}
+.carte:nth-child(2) header{
+    background: #0270BB;
+}
+.carte:nth-child(3) header{
+    background: #F8DC3D;
+}
+
+.conteneur .content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 20px;
+}
+.carte-footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bouton {
+    border: 1px solid #E64A19;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 5px;
+
+}
+
+.bouton:nth-child(1) {
+    background: #FFC107;
+}
+
+.bouton:nth-child(2) {
+    background: #E64A19;
+}
+
+.bouton:nth-child(3) {
+    background: #FFC107;
+}
+
+span{
+
+    color: #E34E26;
+}
+
+.footer-principal {
+    background-color: #E34E26;
+    color: #FFFCFC;
+    padding: 15px;
+
+}
+/*------------------------------------------------------------------------------
+   Utilities
+------------------------------------------------------------------------------*/
